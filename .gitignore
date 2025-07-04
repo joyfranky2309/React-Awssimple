@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+aws.pem
 # production
 /build
 
