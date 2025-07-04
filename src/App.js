@@ -47,16 +47,16 @@ const students = [
     marks: [72, 70, 74, 67],
   },
   {
-    name: "Sonal Khan",
+    name: "Joyfrank Sebastian",
     rollNumber: "CS2025-010",
-    marks: [80, 78, 82, 79],
+    marks: [100, 100, 100, 100],
   },
 ];
 
 function App() {
   return (
     <div className="App">
-      <table border={10} cellSpacing={5}>
+      <table border={10} cellSpacing={5} cellPadding={10}>
         <thead>
           <tr>
             <th>S.no</th>
