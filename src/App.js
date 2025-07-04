@@ -59,6 +59,7 @@ function App() {
       <table border={10} cellSpacing={5}>
         <thead>
           <tr>
+            <th>S.no</th>
             <th>Name</th>
             <th>Roll No.</th>
             <th>CN</th>
@@ -68,8 +69,9 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {students.map((student) => (
+          {students.map((student,idx) => (
             <tr key={student.rollNumber}>
+              <td>{idx+1}</td>
               <td>{student.name}</td>
               <td>{student.rollNumber}</td>
               <td>{student.marks[0]}</td>
